@@ -17,11 +17,10 @@ import { createMenuItems } from '@vaadin/hilla-file-router/runtime.js';
 import { useAuth } from 'Frontend/security/auth';
 
 function Header() {
-  // TODO Replace with real application logo and name
   return (
     <div className="flex p-m gap-m items-center" slot="drawer">
-      <Icon icon="vaadin:cubes" className="text-primary icon-l" />
-      <span className="font-semibold text-l">Vaadin React Ts</span>
+      <Icon icon="vaadin:chart" className="text-primary icon-l" />
+      <span className="font-semibold text-l">E-commerce Admin</span>
     </div>
   );
 }
@@ -56,7 +55,6 @@ function UserMenu() {
     if (profileUrl) {
       items.push({ text: 'View Profile', action: () => window.open(profileUrl, 'blank')?.focus() });
     }
-    // TODO Add additional items to the user menu if needed
     items.push({ text: 'Logout', action: logout });
     return items;
   }, [profileUrl, logout]);

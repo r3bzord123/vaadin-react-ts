@@ -1,4 +1,4 @@
-// TODO Replace with your own main view.
+// Main view - redirects to dashboard
 
 import { ViewConfig } from '@vaadin/hilla-file-router/types.js';
 

@@ -6,6 +6,7 @@ import { useSignal } from '@vaadin/hilla-react-signals';
 import handleError from 'Frontend/views/_ErrorHandler';
 import { Group, ViewToolbar } from 'Frontend/components/ViewToolbar';
 import { useGridDataProvider } from '@vaadin/hilla-react-crud';
+import { Task, ValueChangedEvent } from 'Frontend/types';
 
 export const config: ViewConfig = {
   title: 'Task List',
@@ -54,13 +55,13 @@ function TaskEntryForm(props: TaskEntryFormProps) {
         maxlength={255}
         style={{ minWidth: '20em' }}
         value={description.value}
-        onValueChanged={(evt) => (description.value = evt.detail.value)}
+        onValueChanged={(evt: ValueChangedEvent) => (description.value = evt.detail.value as string)}
       />
       <DatePicker
         placeholder="Due date"
         aria-label="Due date"
         value={dueDate.value}
-        onValueChanged={(evt) => (dueDate.value = evt.detail.value)}
+        onValueChanged={(evt: ValueChangedEvent) => (dueDate.value = evt.detail.value as string)}
       />
       <Button onClick={createTask} theme="primary">
         Create
@@ -82,10 +83,10 @@ export default function TaskListView() {
       <Grid dataProvider={dataProvider}>
         <GridColumn path="description" />
         <GridColumn path="dueDate" header="Due Date">
-          {({ item }) => (item.dueDate ? dateFormatter.format(new Date(item.dueDate)) : 'Never')}
+          {({ item }: { item: Task }) => (item.dueDate ? dateFormatter.format(new Date(item.dueDate)) : 'Never')}
         </GridColumn>
         <GridColumn path="creationDate" header="Creation Date">
-          {({ item }) => dateTimeFormatter.format(new Date(item.creationDate))}
+          {({ item }: { item: Task }) => dateTimeFormatter.format(new Date(item.creationDate))}
         </GridColumn>
       </Grid>
     </main>

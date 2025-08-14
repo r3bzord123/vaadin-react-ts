@@ -201,8 +201,8 @@ importers:
         specifier: 18.3.7
         version: 18.3.7(@types/react@18.3.23)
       '@vaadin/hilla-generator-cli':
-        specifier: 24.8.5
-        version: 24.8.5
+        specifier: 24.8.6
+        version: 24.8.6
       '@vaadin/hilla-generator-core':
         specifier: 24.8.5
         version: 24.8.5
@@ -1659,13 +1659,17 @@ packages:
     peerDependencies:
       lit: 3.3.0
 
-  '@vaadin/hilla-generator-cli@24.8.5':
-    resolution: {integrity: sha512-MNDmff5NvRLF5d86GPPSU2PiXgzgLArQRK7RLDtyf27ME3pDanLZuKGw0CZwnzXngdFbW+oCiD0ywAYp6okdng==}
+  '@vaadin/hilla-generator-cli@24.8.6':
+    resolution: {integrity: sha512-rGcY/X8XT87iJSajn8qMcbeBZKgLZ6+R6OJJJuaV2DOhzyH3kEnhAZcc/wORR78i2knKDVJuWtvLoRu2qTMr4g==}
     engines: {node: '>= 16.13'}
     hasBin: true
 
   '@vaadin/hilla-generator-core@24.8.5':
     resolution: {integrity: sha512-PIzSqy7vKJ8qWEKrB53z7n7BdWGv0sVTDwluczr2FX4iXyOFL+EEz5Q405E6crfHr+R9uP7ByTd3XN1MnQlJzQ==}
+    engines: {node: '>= 16.13'}
+
+  '@vaadin/hilla-generator-core@24.8.6':
+    resolution: {integrity: sha512-D3sDsdu2U288ZfKVURy02D/Axc580pBdUkA4PvS8szvdorNoQVAL3rGk1FdV4O/jazBd4WhsG5ozwvFgwGzMsQ==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-generator-plugin-backbone@24.8.5':
@@ -5102,15 +5106,23 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@vaadin/hilla-generator-cli@24.8.5':
+  '@vaadin/hilla-generator-cli@24.8.6':
     dependencies:
-      '@vaadin/hilla-generator-core': 24.8.5
-      '@vaadin/hilla-generator-utils': 24.8.5
+      '@vaadin/hilla-generator-core': 24.8.6
+      '@vaadin/hilla-generator-utils': 24.8.6
 
   '@vaadin/hilla-generator-core@24.8.5':
     dependencies:
       '@apidevtools/swagger-parser': 10.1.1(openapi-types@12.1.3)
       '@vaadin/hilla-generator-utils': 24.8.5
+      meow: 13.2.0
+      openapi-types: 12.1.3
+      typescript: 5.8.3
+
+  '@vaadin/hilla-generator-core@24.8.6':
+    dependencies:
+      '@apidevtools/swagger-parser': 10.1.1(openapi-types@12.1.3)
+      '@vaadin/hilla-generator-utils': 24.8.6
       meow: 13.2.0
       openapi-types: 12.1.3
       typescript: 5.8.3

